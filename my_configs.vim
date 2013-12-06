@@ -118,8 +118,6 @@ map <leader>b :e ~/buffer<cr>
 nmap <leader>y :call CopyAll()<CR>
 " same command for virtual mode.
 vmap <leader>y "*y
-" paste from System Clip
-nmap <leader>p "*p
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Window
