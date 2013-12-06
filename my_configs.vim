@@ -137,3 +137,10 @@ function! CopyAll()
 	exe "normal `z"
 	delmarks z
 endfunction
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => plugins extented
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:NERDTreeShowHidden = 1
+" map <leader>nc to close NERDTree
+nmap <leader>nc :NERDTreeClose<cr>
