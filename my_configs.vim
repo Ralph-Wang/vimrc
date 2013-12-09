@@ -118,6 +118,8 @@ map <leader>b :e ~/buffer<cr>
 nmap <leader>y :call CopyAll()<CR>
 " same command for virtual mode.
 vmap <leader>y "*y
+" map copy
+map <leader>y "*p
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Window
