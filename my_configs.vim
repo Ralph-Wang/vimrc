@@ -119,7 +119,7 @@ nmap <leader>y :call CopyAll()<CR>
 " same command for virtual mode.
 vmap <leader>y "*y
 " map copy
-map <leader>y "*p
+map <leader>p "*p
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Window
