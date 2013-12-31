@@ -31,6 +31,10 @@ vim-snippets https://github.com/honza/vim-snippets
 vim-surround https://github.com/tpope/vim-surround
 vim-expand-region https://github.com/terryma/vim-expand-region
 vim-multiple-cursors https://github.com/terryma/vim-multiple-cursors
+vim-fugitive https://github.com/tpope/vim-fugitive
+vim-airline https://github.com/bling/vim-airline
+goyo.vim https://github.com/junegunn/goyo.vim
+vim-zenroom2 https://github.com/amix/vim-zenroom2
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'
