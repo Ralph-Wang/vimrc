@@ -144,5 +144,5 @@ endfunction
 " => plugins extented
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:NERDTreeShowHidden = 1
-" test map <leader>nc to close NERDTree
+" map <leader>nc to close NERDTree
 nmap <leader>nc :NERDTreeClose<cr>
