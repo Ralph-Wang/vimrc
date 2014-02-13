@@ -39,10 +39,11 @@ autocmd! FileType markdown set noet
 
 
 " 1 tab == 2 spaces
-set shiftwidth=2
-set tabstop=2
+"set shiftwidth=2
+"set tabstop=2
+"simple source looks well, large source not so good.
 
-" Linebreak on 100 characters
+" Linebreak on 80 characters
 set linebreak
 set tw=80
 
