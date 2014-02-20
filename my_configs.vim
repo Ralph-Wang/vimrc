@@ -123,6 +123,15 @@ vmap <leader>y "*y
 map <leader>p "*p
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => code style check
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" auto modi python style
+map <F11> :call Autopep8()<CR>
+
+" auto check python style
+map <F12> :call Pep8()<CR>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Window
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " auto maximum
@@ -139,6 +148,14 @@ function! CopyAll()
     exe "normal \"*yG"
 	exe "normal `z"
 	delmarks z
+endfunction
+
+function! Autopep8()
+    exe "!autopep8 -i %"
+endfunction
+
+function! Pep8()
+    exe "!pep8 %"
 endfunction
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
