@@ -35,7 +35,7 @@ endtry
 " turn on expandTab
 set et
 " turn off expandTab while writing markdown files
-autocmd! FileType markdown set noet
+autocmd! FileType markdown,make set noet
 
 
 " 1 tab == 2 spaces
