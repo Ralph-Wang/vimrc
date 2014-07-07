@@ -34,8 +34,8 @@ endtry
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " turn on expandTab
 set et
-" turn off expandTab while writing markdown files
-autocmd! FileType markdown,make set noet
+" turn off expandTab while writing Makefile
+autocmd! FileType make set noet
 
 
 " 1 tab == 2 spaces
