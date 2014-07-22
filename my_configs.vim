@@ -135,7 +135,9 @@ map <F12> :call Pep8()<CR>
 " => Window
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " auto maximum
-autocmd! GUIEnter * sim ~x
+if has("win32")
+    autocmd! GUIEnter * sim ~x
+endif
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
