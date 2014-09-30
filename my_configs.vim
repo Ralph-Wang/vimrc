@@ -42,6 +42,8 @@ autocmd! FileType make set noet
 "set shiftwidth=2
 "set tabstop=2
 "simple source looks well, large source not so good.
+autocmd! FileType javascript set shiftwidth=2
+autocmd FileType javascript set tabstop=2
 
 " Linebreak on 80 characters
 set linebreak
