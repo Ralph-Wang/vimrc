@@ -121,7 +121,7 @@ This plugin follows the standard runtime path structure, and as such it can be i
 *  [NeoBundle][12]
   *  `NeoBundle 'bling/vim-airline'`
 *  [Vundle][13]
-  *  `Bundle 'bling/vim-airline'`
+  *  `Plugin 'bling/vim-airline'`
 *  [VAM][22]
   *  `call vam#ActivateAddons([ 'vim-airline' ])`
 *  manual
@@ -191,7 +191,7 @@ MIT License. Copyright (c) 2013-2014 Bailey Ling.
 [17]: https://github.com/mbbill/undotree
 [18]: https://github.com/scrooloose/nerdtree
 [19]: https://github.com/majutsushi/tagbar
-[20]: https://powerline.readthedocs.org/en/latest/fontpatching.html
+[20]: https://powerline.readthedocs.org/en/master/installation.html#patched-fonts
 [21]: https://bitbucket.org/ludovicchabant/vim-lawrencium
 [22]: https://github.com/MarcWeber/vim-addon-manager
 [23]: https://github.com/altercation/solarized
