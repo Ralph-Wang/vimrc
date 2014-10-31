@@ -123,14 +123,6 @@ vmap <leader>y "*y
 " map copy
 map <leader>p "*p
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => code style check
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" auto modi python style
-map <F11> :call Autopep8()<CR>
-
-" auto check python style
-map <F12> :call Pep8()<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Window
