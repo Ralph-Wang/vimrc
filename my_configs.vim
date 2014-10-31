@@ -132,6 +132,10 @@ if has("win32")
     autocmd! GUIEnter * sim ~x
 endif
 
+" spilt easy
+map <leader>s :sp<CR>
+map <leader>v :vsp<CR>
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Helper functions
