@@ -25,7 +25,7 @@ set cmdheight=1
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 try
-    colorscheme desert
+    colorscheme peaksea
 catch
 endtry
 
