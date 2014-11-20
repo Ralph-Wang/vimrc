@@ -35,14 +35,17 @@ endtry
 " turn on expandTab
 set et
 " turn off expandTab while writing Makefile
-autocmd! FileType make set noet
+autocmd FileType make set noet
 
 
 " 1 tab == 2 spaces
-"set shiftwidth=2
-"set tabstop=2
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
+
 "simple source looks well, large source not so good.
-autocmd FileType javascript set shiftwidth=2
+autocmd FileType javascript,html set shiftwidth=2
+autocmd FileType javascript,html set tabstop=2
 
 " Linebreak on 80 characters
 set linebreak
