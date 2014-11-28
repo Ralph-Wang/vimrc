@@ -118,15 +118,6 @@ map <leader>r :!
 " Quickly open a buffer for scribble
 map <leader>b :e ~/buffer<cr>
 
-"
-
-" map the CopyAll function to normal mode
-nmap <leader>y :call CopyAll()<CR>
-" same command for virtual mode.
-vmap <leader>y "*y
-" map copy
-map <leader>p "*p
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Window
