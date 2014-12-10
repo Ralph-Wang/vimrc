@@ -13,7 +13,15 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "show the line NO.
 set number
-set guifont=Monaco:h9:b:cANSI
+try
+    set guifont=Monaco:h9:b:cANSI
+catch
+endtry
+
+try
+    set guifont="Source Code Pro":h9:b:cANSI
+catch
+endtry
 
 " set mark{{{ }}} for fold
 set foldmethod=marker
@@ -29,6 +37,12 @@ try
 catch
     colorscheme desert
 endtry
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Status Line
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set statusline=%!airline#statusline(1)
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
@@ -106,13 +120,10 @@ endif
 
 "lnk to load _vimrc & edit _vimrc
 if has("win32")
-	noremap <silent> <leader>es :tabedit ~/_vimrc<cr>
-	noremap <silent> <leader>sr :source $HOME/_vimrc<cr>:sim ~x<cr>
+	noremap <silent> <leader>sr :source $HOME/_vimrc<cr>
 else
-	noremap <silent> <leader>es :tabedit ~/.vimrc<cr>
-	noremap <silent> <leader>sr :source $HOME/.vimrc<cr>
+	noremap <silent> <leader>sr :source ~/.vimrc<cr>
 endif
-
 
 "quick run os commands
 noremap <leader>r :!
