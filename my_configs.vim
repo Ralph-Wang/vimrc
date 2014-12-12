@@ -172,3 +172,15 @@ let g:NERDTreeShowHidden = 1
 " noremap <leader>nc to close NERDTree
 nnoremap <leader>nc :NERDTreeClose<cr>
 
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => unmap
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" use <C-c> please
+:inoremap <esc> <nop>
+
+" use hjkl to move please
+:noremap <Up> <nop>
+:noremap <Down> <nop>
+:noremap <Left> <nop>
+:noremap <Right> <nop>
