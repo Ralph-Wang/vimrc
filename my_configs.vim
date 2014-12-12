@@ -177,7 +177,7 @@ nnoremap <leader>nc :NERDTreeClose<cr>
 " => unmap
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " use <C-c> please
-" :inoremap <esc> <nop>
+:inoremap <esc> <nop>
 
 " use hjkl to move please
 :noremap <Up> <nop>
