@@ -184,3 +184,8 @@ nnoremap <leader>nc :NERDTreeClose<cr>
 :noremap <Down> <nop>
 :noremap <Left> <nop>
 :noremap <Right> <nop>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => inorenmap
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+inoremap <c-w> <esc>bgUwea
