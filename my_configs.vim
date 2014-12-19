@@ -190,6 +190,10 @@ nnoremap <leader>nc :NERDTreeClose<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 inoremap <c-w> <esc>bgUwea
 
+" 在 insert 模式下模拟 emacs
+inoremap <c-d> <del>
+inoremap <c-e> <esc>A
+
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
