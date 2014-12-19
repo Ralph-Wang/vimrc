@@ -189,3 +189,46 @@ nnoremap <leader>nc :NERDTreeClose<cr>
 " => inorenmap
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 inoremap <c-w> <esc>bgUwea
+
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => auto pairs
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+function! AutoPair(open, close)
+    let l:line = getline('.')
+    if col('.') > strlen(l:line) || l:line[col('.') - 1] == ' '
+        return a:open.a:close."\<ESC>i"
+    else
+        return a:open
+    endif
+endf
+
+function! ClosePair(char)
+    if getline('.')[col('.') - 1] == a:char
+        return "\<Right>"
+    else
+        return a:char
+    endif
+endf
+
+function! SamePair(char)
+    let l:line = getline('.')
+    if col('.') > strlen(l:line) || l:line[col('.') - 1] == ' '
+        return a:char.a:char."\<ESC>i"
+    elseif l:line[col('.') - 1] == a:char
+        return "\<Right>"
+    else
+        return a:char
+    endif
+endf
+
+inoremap ( <c-r>=AutoPair('(', ')')<CR>
+inoremap ) <c-r>=ClosePair(')')<CR>
+inoremap { <c-r>=AutoPair('{', '}')<CR>
+inoremap } <c-r>=ClosePair('}')<CR>
+inoremap [ <c-r>=AutoPair('[', ']')<CR>
+inoremap ] <c-r>=ClosePair(']')<CR>
+inoremap " <c-r>=SamePair('"')<CR>
+inoremap ' <c-r>=SamePair("'")<CR>
+inoremap ` <c-r>=SamePair('`')<CR>
