@@ -230,6 +230,8 @@ endf
 
 inoremap < <c-r>=AutoPair('<', '>')<CR>
 inoremap > <c-r>=ClosePair('>')<CR>
+inoremap ( <c-r>=AutoPair('(', ')')<CR>
+inoremap ( <c-r>=ClosePair(')')<CR>
 inoremap { <c-r>=AutoPair('{', '}')<CR>
 inoremap } <c-r>=ClosePair('}')<CR>
 inoremap [ <c-r>=AutoPair('[', ']')<CR>
