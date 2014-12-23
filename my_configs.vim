@@ -189,7 +189,8 @@ nnoremap <leader>nc :NERDTreeClose<cr>
 " => inorenmap
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 inoremap <c-w> <esc>bgUwea
-inoremap <c-c> <esc>
+inoremap <c-c> <esc>;
+inoremap ; <esc>mqA;<esc>`q'
 
 " 在 insert 模式下模拟 emacs
 inoremap <c-d> <del>
