@@ -194,6 +194,7 @@ inoremap <c-c> <esc>
 " 在 insert 模式下模拟 emacs
 inoremap <c-d> <del>
 inoremap <c-e> <esc>A
+inoremap <c-a> <esc>I
 
 
 
@@ -228,8 +229,6 @@ function! SamePair(char)
     endif
 endf
 
-inoremap < <c-r>=AutoPair('<', '>')<CR>
-inoremap > <c-r>=ClosePair('>')<CR>
 inoremap ( <c-r>=AutoPair('(', ')')<CR>
 inoremap ) <c-r>=ClosePair(')')<CR>
 inoremap { <c-r>=AutoPair('{', '}')<CR>
