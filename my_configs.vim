@@ -188,14 +188,20 @@ nnoremap <leader>nc :NERDTreeClose<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => inorenmap
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" 将当前单词大写
 inoremap <c-w> <esc>bgUwea
-inoremap <c-c> <esc>;
+" 所有 esc 都用 c-c 代替
+noremap <c-c> <esc>
 inoremap ; <esc>mqA;<esc>`q'
 
 " 在 insert 模式下模拟 emacs
 inoremap <c-d> <del>
 inoremap <c-e> <esc>A
 inoremap <c-a> <esc>I
+inoremap <c-k> <esc>ld$a
+inoremap <c-f> <esc>la
+inoremap <c-b> <esc>i
 
 
 
