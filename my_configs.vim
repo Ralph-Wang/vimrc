@@ -112,10 +112,10 @@ else
 endif
 
 if has("mac") || has("macunix")
-  nnoremap <D-j> <M-j>
-  nnoremap <D-k> <M-k>
-  vnoremap <D-j> <M-j>
-  vnoremap <D-k> <M-k>
+  nmap <D-j> <M-j>
+  nmap <D-k> <M-k>
+  vmap <D-j> <M-j>
+  vmap <D-k> <M-k>
 endif
 
 "lnk to load _vimrc & edit _vimrc
