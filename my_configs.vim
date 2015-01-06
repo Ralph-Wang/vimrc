@@ -11,8 +11,12 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"show the line NO.
+" show the line NO.
 set number
+
+" incsearch all the way
+set incsearch
+
 try
     set guifont=Monaco:h9:b:cANSI
 catch
