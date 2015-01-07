@@ -32,8 +32,15 @@ if get(g:, "go_def_mapping_enabled", 1)
    nnoremap <buffer> <silent> gd :GoDef<cr>
 endif
 
+if get(g:, "go_textobj_enabled", 1)
+    onoremap <buffer> af :<c-u>call go#textobj#Function('a')<cr>
+    xnoremap <buffer> af :<c-u>call go#textobj#Function('a')<cr>
+    onoremap <buffer> if :<c-u>call go#textobj#Function('i')<cr>
+    xnoremap <buffer> if :<c-u>call go#textobj#Function('i')<cr>
+endif
+
 if get(g:, "go_auto_type_info", 0)
-    setlocal updatetime=300
+    setlocal updatetime=800
 endif
 
 " vim:ts=4:sw=4:et
