@@ -197,7 +197,6 @@ nnoremap <leader>nc :NERDTreeClose<cr>
 inoremap <c-w> <esc>bgUwea
 " 所有 esc 都用 c-c 代替
 noremap <c-c> <esc>
-inoremap ; <esc>mqA;<esc>`q'
 
 " 在 insert 模式下模拟 emacs
 inoremap <c-d> <del>
