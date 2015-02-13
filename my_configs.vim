@@ -88,8 +88,17 @@ nnoremap <leader>q :q<cr>
 noremap <silent> <leader><cr> :set hls!<cr>
 
 
+function Switchnu()
+    if &nu == 0
+        set nu
+    else
+        set rnu
+    endif
+endf
+
+
 " En/Disable relativenumber when <leader><space> is pressed
-noremap <silent> <leader><Space> :set rnu!<cr>
+noremap <silent> <leader><Space> :call Switchnu()<cr>
 
 " Useful noremappings for managing tabs
 noremap <leader>tn :tabnew<cr>
@@ -148,26 +157,6 @@ endif
 noremap <leader>s :sp<CR>
 noremap <leader>v :vsp<CR>
 
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Helper functions
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" copy the whole file to System Clip
-function! CopyAll()
-    exe "normal mz"
-    exe "normal gg"
-    exe "normal \"*yG"
-	exe "normal `z"
-	delmarks z
-endfunction
-
-function! Autopep8()
-    exe "!autopep8 -i %"
-endfunction
-
-function! Pep8()
-    exe "!pep8 %"
-endfunction
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => plugins extented
