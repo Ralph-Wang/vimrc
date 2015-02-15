@@ -91,8 +91,10 @@ noremap <silent> <leader><cr> :set hls!<cr>
 function Switchnu()
     if &nu == 0
         set nu
+        set nornu
     else
         set rnu
+        set nonu
     endif
 endf
 
