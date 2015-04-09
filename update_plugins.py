@@ -40,6 +40,7 @@ vim-repeat https://github.com/tpope/vim-repeat
 vim-commentary https://github.com/tpope/vim-commentary
 vim-go https://github.com/fatih/vim-go
 tabular https://github.com/godlygeek/tabular
+Dockerfile.vim https://github.com/ekalinin/Dockerfile.vim
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'

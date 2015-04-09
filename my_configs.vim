@@ -63,8 +63,8 @@ set tabstop=4
 set softtabstop=4
 
 "simple source looks well, large source not so good.
-autocmd FileType ruby,javascript,html set shiftwidth=2
-autocmd FileType ruby,javascript,html set tabstop=2
+autocmd FileType scss,css,eruby,ruby,javascript,html set shiftwidth=2
+autocmd FileType scss,css,eruby,ruby,javascript,html set tabstop=2
 
 " Linebreak on 80 characters
 set linebreak
