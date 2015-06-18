@@ -103,7 +103,7 @@ endf
 noremap <silent> <leader><Space> :call Switchnu()<cr>
 
 " Useful noremappings for managing tabs
-noremap <leader>tn :tabnew<cr>
+noremap <leader>tn :tabnext 
 noremap <leader>to :tabonly<cr>
 noremap <leader>tc :tabclose<cr>
 noremap <leader>tm :tabmove 
@@ -253,5 +253,5 @@ if ! has('gui_running')
 endif
  
 set laststatus=2 " Always display the statusline in all windows
-set guifont=Meslo\ LG\ M\ Regular\ for\ Powerline:h13
+set guifont=Meslo\ LG\ M\ Regular\ for\ Powerline:h12
 set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline
