@@ -246,3 +246,21 @@ python del powerline_setup
 set laststatus=2 " Always display the statusline in all windows
 set guifont=Meslo\ LG\ M\ Regular\ for\ Powerline:h12
 set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline
+
+
+"""""""""""""""""
+" From SPA
+" Convert HTML to JS
+"""""""""""""""""
+vmap <silent> ;h :s?^\(\s*\)'\([^']\+\)',*\s*+$?\1\2?g<CR>
+vmap <silent> ;q :s?^\(\s*\)\(.*\)\s*$? \1'\2' +?<CR>
+
+"""""""""""""""""
+" Convert characters to string list
+"""""""""""""""""
+vmap <silent> ;s :s?^\(\s*\)\(.*\)\s*$? \1"\2",?<CR>
+
+"""""""""""""""""
+" special for JS
+"""""""""""""""""
+autocmd FileType javascript set commentstring=/*%s*/
