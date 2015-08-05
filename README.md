@@ -8,8 +8,7 @@
 # Install
 
 ```
-git clone https://github.com/Ralph-Wang/vimrc ~/.vim_runtime
-cd ~/.vim_runtime
-git submodule update --init
+git clone --recursive https://github.com/Ralph-Wang/vimrc ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
 vim +PluginInstall +qall
 ```
