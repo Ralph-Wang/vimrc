@@ -13,8 +13,16 @@ call vundle#begin('~/.vim_runtime/bundle/')
 Plugin 'gmarik/Vundle.vim'
 
 
-" My Plugins
+"" My Plugins
+" colors
+Plugin 'wesgibbs/vim-irblack'
+Plugin 'kml/vim-irblack-plus'
+Plugin 'vim-scripts/peaksea'
+" plugins
+Plugin 'vim-scripts/YankRing.vim'
+Plugin 'mattn/emmet-vim'
 Plugin 'mileszs/ack.vim'
+Plugin 'yegappan/mru'
 Plugin 'corntrace/bufexplorer'
 Plugin 'kien/ctrlp.vim'
 Plugin 'vim-scripts/mayansmoke'

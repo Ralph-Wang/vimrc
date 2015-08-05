@@ -1,16 +1,8 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Important: 
-"       This requries that you install https://github.com/amix/vimrc !
+"       This requries that you install https://github.com/Ralph-Wang/vimrc !
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-
-""""""""""""""""""""""""""""""
-" => Load pathogen paths
-""""""""""""""""""""""""""""""
-call pathogen#infect('~/.vim_runtime/sources_forked/{}')
-" call pathogen#infect('~/.vim_runtime/sources_non_forked/{}')
-call pathogen#helptags()
 
 """"""""""""""""""""""""""""""
 " => bufExplorer plugin
