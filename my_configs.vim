@@ -234,10 +234,6 @@ inoremap ] <c-r>=ClosePair(']')<CR>
 """""""""""""""""
 set rtp+=/Library/Python/2.7/site-packages/powerline/bindings/vim
 
-" These lines setup the environment to show graphics and colors correctly.
-set nocompatible
-set t_Co=256
- 
 let g:minBufExplForceSyntaxEnable = 1
 python from powerline.vim import setup as powerline_setup
 python powerline_setup()
