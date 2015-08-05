@@ -1,5 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/Users/ralph_ld/loudou.info'
-let g:netrw_dirhist_2='/Users/ralph_ld/my/scrapy/tutorial/tutorial/spiders'
-let g:netrw_dirhist_3='/Users/ralph_ld/git/tb_fund_spider/fund_spider/spiders'
