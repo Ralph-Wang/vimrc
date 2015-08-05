@@ -37,7 +37,7 @@ set cmdheight=1
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 try
-    colorscheme ir_black+
+    colorscheme peaksea
 catch
     colorscheme desert
 endtry

@@ -17,7 +17,7 @@ Plugin 'gmarik/Vundle.vim'
 " colors
 Plugin 'wesgibbs/vim-irblack'
 Plugin 'kml/vim-irblack-plus'
-Plugin 'vim-scripts/peaksea'
+Plugin 'Ralph-Wang/peaksea'
 " plugins
 Plugin 'vim-scripts/YankRing.vim'
 Plugin 'mattn/emmet-vim'
