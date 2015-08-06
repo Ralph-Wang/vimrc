@@ -51,6 +51,9 @@ else
     let g:yankring_history_dir = '~/.vim_runtime/temp_dirs/'
 endif
 
+" map ,y to list yankring
+map <leader>y :YRShow<cr>
+
 
 """"""""""""""""""""""""""""""
 " => CTRL-P
