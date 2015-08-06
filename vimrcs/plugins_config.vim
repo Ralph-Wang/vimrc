@@ -7,6 +7,12 @@
 """"""""""""""""""""""""""""""
 " => indentLine
 """"""""""""""""""""""""""""""
+
+map <leader>l :TagbarToggle<cr>
+
+""""""""""""""""""""""""""""""
+" => indentLine
+""""""""""""""""""""""""""""""
 " Vim
 let g:indentLine_color_term = 239
 
