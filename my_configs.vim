@@ -234,7 +234,7 @@ inoremap ] <c-r>=ClosePair(']')<CR>
 """""""""""""""""
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled=1
-let g:airline_theme='laederon'
+let g:airline_theme='bubblegum'
  
 set laststatus=2 " Always display the statusline in all windows
 set guifont=Meslo\ LG\ M\ Regular\ for\ Powerline:h12
