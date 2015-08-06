@@ -20,6 +20,7 @@ Plugin 'kml/vim-irblack-plus'
 Plugin 'Ralph-Wang/peaksea'
 " filetype
 Plugin 'chrisbra/csv.vim'
+Plugin 'vim-scripts/Textile-for-VIM'
 " plugins
 Plugin 'Yggdroot/indentLine'
 Plugin 'vim-scripts/YankRing.vim'
