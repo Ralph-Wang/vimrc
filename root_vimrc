@@ -31,6 +31,7 @@ Plugin 'vim-scripts/nginx.vim'
 Plugin 'groenewege/vim-less'
 Plugin 'tpope/vim-markdown'
 " plugins
+Plugin 'axiaoxin/vim-json-line-format'
 Plugin 'Yggdroot/indentLine'
 Plugin 'vim-scripts/YankRing.vim'
 Plugin 'mattn/emmet-vim'
