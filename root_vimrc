@@ -30,6 +30,7 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'vim-scripts/nginx.vim'
 Plugin 'groenewege/vim-less'
 Plugin 'tpope/vim-markdown'
+Plugin 'jelera/vim-javascript-syntax'
 " plugins
 Plugin 'axiaoxin/vim-json-line-format'
 Plugin 'Yggdroot/indentLine'
