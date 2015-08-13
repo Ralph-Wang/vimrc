@@ -141,7 +141,7 @@ else
 endif
 
 "quick run os commands
-noremap <leader>r :!
+noremap <leader>c :!
 
 " Quickly open a buffer for scribble
 noremap <leader>b :e ~/buffer<cr>
