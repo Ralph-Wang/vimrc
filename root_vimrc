@@ -15,6 +15,7 @@ Plugin 'gmarik/Vundle.vim'
 
 "" My Plugins
 " colors
+Plugin 'Ralph-Wang/peaksea'
 Plugin 'Ralph-Wang/tnb'
 " filetype
 Plugin 'fatih/vim-go'
