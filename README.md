@@ -4,6 +4,12 @@
 * Base on [amix/vimrc](https://github.com/amix/vimrc)
 * use vundle for plugin management
 
+# Requirement
+
+* git
+* `vim` should make with '--enable-pythoninterp=yes'
+* [Exuberant ctags](http://ctags.sourceforge.net/)
+
 
 # Install
 
