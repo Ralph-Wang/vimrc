@@ -15,12 +15,7 @@ Plugin 'gmarik/Vundle.vim'
 
 "" My Plugins
 " colors
-Plugin 'therubymug/vim-pyte'
-Plugin 'wesgibbs/vim-irblack'
-Plugin 'kml/vim-irblack-plus'
-Plugin 'Ralph-Wang/peaksea'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'vim-scripts/mayansmoke'
+Plugin 'Ralph-Wang/tnb'
 " filetype
 Plugin 'fatih/vim-go'
 Plugin 'chrisbra/csv.vim'
