@@ -54,6 +54,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-commentary'
 Plugin 'godlygeek/tabular'
+Plugin 'vim-scripts/TaskList.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
