@@ -27,6 +27,7 @@ Plugin 'groenewege/vim-less'
 Plugin 'tpope/vim-markdown'
 Plugin 'jelera/vim-javascript-syntax'
 " plugins
+Plugin 'airblade/vim-gitgutter'
 Plugin 'SirVer/ultisnips'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'axiaoxin/vim-json-line-format'
