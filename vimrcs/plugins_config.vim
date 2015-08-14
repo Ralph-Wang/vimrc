@@ -31,6 +31,7 @@ let g:UltiSnipsEditSplit="vertical"
 " => jedi
 """"""""""""""""""""""""""""""
 autocmd FileType python setlocal completeopt-=preview
+let g:jedi#popup_on_dot = 0
 let g:jedi#completions_command = "<C-o>"
 let g:jedi#goto_command = "<leader>d"
 let g:jedi#goto_assignments_command = "<leader>g"
