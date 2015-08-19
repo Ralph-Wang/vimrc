@@ -245,13 +245,18 @@ set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusl
 " From SPA
 " Convert HTML to JS
 """""""""""""""""
-vmap <silent> ;h :s?^\(\s*\)'\([^']\+\)',*\s*+$?\1\2?g<CR>
-vmap <silent> ;q :s?^\(\s*\)\(.*\)\s*$? \1'\2' +?<CR>
+vnoremap <silent> ;h :s?^\(\s*\)'\([^']\+\)',*\s*+$?\1\2?g<CR>
+vnoremap <silent> ;q :s?^\(\s*\)\(.*\)\s*$? \1'\2' +?<CR>
 
 """""""""""""""""
 " Convert characters to string list
 """""""""""""""""
-vmap <silent> ;s :s?^\(\s*\)\(.*\)\s*$? \1"\2",?<CR>
+vnoremap <silent> ;s :s?^\(\s*\)\(.*\)\s*$? \1"\2",?<CR>
+
+"""""""""""""""""
+" swap 2 characters
+"""""""""""""""""
+nnoremap <silent> <c-t> xph
 
 """""""""""""""""
 " special for JS
