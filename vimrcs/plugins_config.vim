@@ -3,6 +3,25 @@
 "       This requries that you install https://github.com/Ralph-Wang/vimrc !
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+""""""""""""""""""""""""""""""
+" => mhinz/vim-startify
+""""""""""""""""""""""""""""""
+let g:startify_custom_header = 
+            \ map(split(system('fortune | cowsay "CODE or QUIT"'), '\n'), '">  ". v:val. " "') + ['', '']
+
+let g:startify_list_order = [
+            \ ['    MRU(all):'],
+            \ 'files',
+            \ ['    MRU(current dir):'],
+            \ 'dir',
+            \ ['    Sessions:'],
+            \ 'sessions',
+            \ ['    Bookmarks:'],
+            \ 'bookmarks'
+            \ ]
+
+
 """"""""""""""""""""""""""""""
 " => vim-scripts/TaskList.vim
 """"""""""""""""""""""""""""""
