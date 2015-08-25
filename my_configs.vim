@@ -232,3 +232,8 @@ nnoremap <silent> <c-t> xph
 " special for JS
 """""""""""""""""
 autocmd FileType javascript set commentstring=/*%s*/
+
+"""""""""""""""""
+" special for Python
+"""""""""""""""""
+autocmd FileType python nnoremap <F1> :!autopep8 -i %;isort %;<cr>
