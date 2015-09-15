@@ -27,6 +27,7 @@ Plugin 'groenewege/vim-less'
 Plugin 'tpope/vim-markdown'
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'suan/vim-instant-markdown'
+Plugin 'mfukar/robotframework-vim'
 " plugins
 Plugin 'mhinz/vim-startify'
 Plugin 'gorodinskiy/vim-coloresque'
