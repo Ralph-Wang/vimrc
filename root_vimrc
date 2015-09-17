@@ -30,7 +30,7 @@ Plugin 'suan/vim-instant-markdown'
 Plugin 'mfukar/robotframework-vim'
 " plugins
 Plugin 'mhinz/vim-startify'
-Plugin 'gorodinskiy/vim-coloresque'
+Plugin 'jazmit/vim-coloresque'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'SirVer/ultisnips'
 Plugin 'davidhalter/jedi-vim'
