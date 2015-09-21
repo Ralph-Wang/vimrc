@@ -54,7 +54,7 @@ set statusline=%!airline#statusline(1)
 " turn on expandTab
 set et
 " turn off expandTab while writing Makefile
-autocmd FileType make set noet
+autocmd FileType make setlocal noet
 
 
 " 1 tab == 2 spaces
@@ -63,8 +63,8 @@ set tabstop=4
 set softtabstop=4
 
 "simple source looks well, large source not so good.
-autocmd FileType scss,css,eruby,ruby,javascript,html set shiftwidth=2
-autocmd FileType scss,css,eruby,ruby,javascript,html set tabstop=2
+autocmd FileType scss,css,eruby,ruby,javascript,html setlocal shiftwidth=2
+autocmd FileType scss,css,eruby,ruby,javascript,html setlocal tabstop=2
 
 " Linebreak on 80 characters
 set linebreak
@@ -231,7 +231,7 @@ nnoremap <silent> <c-t> xph
 """""""""""""""""
 " special for JS
 """""""""""""""""
-autocmd FileType javascript set commentstring=/*%s*/
+autocmd FileType javascript setlocal commentstring=/*%s*/
 
 """""""""""""""""
 " special for Python
