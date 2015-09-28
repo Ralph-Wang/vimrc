@@ -32,11 +32,17 @@ let g:multi_cursor_prev_key='<C-p>'
 let g:multi_cursor_skip_key='<C-x>'
 let g:multi_cursor_quit_key='<C-c>'
 
+
+""""""""""""""""""""""""""""""
+" => YouCompleteMe
+""""""""""""""""""""""""""""""
+let g:ycm_min_num_of_chars_for_completion=2
+
 """"""""""""""""""""""""""""""
 " => ultisnips
 """"""""""""""""""""""""""""""
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsExpandTrigger="<c-h>"
 let g:UltiSnipsListSnippets="<c-l>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
