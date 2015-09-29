@@ -29,7 +29,6 @@ Plugin 'suan/vim-instant-markdown'
 Plugin 'Ralph-Wang/robotframework-vim'
 " plugins
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'ervandew/supertab'
 Plugin 'mhinz/vim-startify'
 Plugin 'jazmit/vim-coloresque'
 Plugin 'airblade/vim-gitgutter'

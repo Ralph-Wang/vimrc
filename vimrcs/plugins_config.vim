@@ -36,7 +36,7 @@ let g:multi_cursor_quit_key='<C-c>'
 """"""""""""""""""""""""""""""
 " => YouCompleteMe
 """"""""""""""""""""""""""""""
-let g:ycm_min_num_of_chars_for_completion=2
+let g:ycm_min_num_of_chars_for_completion = 2
 
 """"""""""""""""""""""""""""""
 " => ultisnips
