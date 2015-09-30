@@ -48,7 +48,7 @@ Plugin 'vim-scripts/tlib'
 Plugin 'sophacles/vim-bundle-mako'
 Plugin 'michaeljsmith/vim-indent-object'
 Plugin 'MarcWeber/vim-addon-mw-utils' " required by garbas/vim-snipmate
-Plugin 'honza/vim-snippets'
+Plugin 'Ralph-Wang/vim-snippets'
 Plugin 'tpope/vim-surround'
 Plugin 'terryma/vim-expand-region'
 Plugin 'terryma/vim-multiple-cursors'

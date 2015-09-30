@@ -51,7 +51,7 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:UltiSnipsEditSplit="vertical"
 
 " google python style
-let g:ultisnips_python_style="google"
+let g:ultisnips_python_style="jedi"
 
 """"""""""""""""""""""""""""""
 " => jedi
