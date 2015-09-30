@@ -11,8 +11,8 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" show the line NO.
-set number
+" show the relative line number.
+set relativenumber
 
 " incsearch all the way
 set incsearch
@@ -90,11 +90,11 @@ noremap <silent> <leader><cr> :set hls!<cr>
 
 function Switchnu()
     if &nu == 0
-        set nu
-        set nornu
+        set norelativenumber
+        set number
     else
-        set rnu
-        set nonu
+        set nonumber
+        set relativenumber
     endif
 endf
 
