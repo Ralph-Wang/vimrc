@@ -12,7 +12,7 @@
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " show the relative line number.
-set relativenumber
+set number
 
 " incsearch all the way
 set incsearch
