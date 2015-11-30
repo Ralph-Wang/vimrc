@@ -11,6 +11,9 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" show the cursor line
+set cursorline
+
 " show the relative line number.
 set number
 
