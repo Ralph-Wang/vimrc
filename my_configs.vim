@@ -14,6 +14,9 @@
 " show the cursor line
 set cursorline
 
+" show the 80 column line
+set colorcolumn=81
+
 " show the relative line number.
 set number
 
@@ -211,7 +214,8 @@ let g:airline_theme='bubblegum'
  
 set laststatus=2 " Always display the statusline in all windows
 set guifont=Meslo\ LG\ M\ Regular\ for\ Powerline:h12
-set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline
+" Hide the default mode text (e.g. -- INSERT -- below the statusline
+set noshowmode
 
 
 """""""""""""""""
