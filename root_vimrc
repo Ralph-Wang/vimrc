@@ -17,6 +17,7 @@ Plugin 'gmarik/Vundle.vim'
 " colors
 Plugin 'Ralph-Wang/tnb'
 " filetype
+Plugin 'tfnico/vim-gradle'
 Plugin 'fatih/vim-go'
 Plugin 'chrisbra/csv.vim'
 Plugin 'vim-scripts/Textile-for-VIM'
