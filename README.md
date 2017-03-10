@@ -13,7 +13,7 @@
 
 ### Python packages
 ```
-[sudo] pip install isort autopep8 jedi
+[sudo] pip install isort autopep8 jedi flake8
 ```
 
 ### Node pacakges
