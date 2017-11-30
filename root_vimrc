@@ -28,6 +28,7 @@ Plugin 'groenewege/vim-less'
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'suan/vim-instant-markdown'
 Plugin 'Ralph-Wang/robotframework-vim'
+Plugin 'posva/vim-vue'
 " plugins
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'mhinz/vim-startify'
