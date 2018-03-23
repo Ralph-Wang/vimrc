@@ -16,6 +16,7 @@ Plugin 'gmarik/Vundle.vim'
 "" My Plugins
 " colors
 Plugin 'Ralph-Wang/tnb'
+
 " filetype
 Plugin 'tfnico/vim-gradle'
 Plugin 'fatih/vim-go'
@@ -29,6 +30,8 @@ Plugin 'jelera/vim-javascript-syntax'
 Plugin 'suan/vim-instant-markdown'
 Plugin 'Ralph-Wang/robotframework-vim'
 Plugin 'posva/vim-vue'
+Plugin 'leafgarland/typescript-vim'
+
 " plugins
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'mhinz/vim-startify'
