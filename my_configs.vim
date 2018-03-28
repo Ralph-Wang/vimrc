@@ -195,15 +195,6 @@ inoremap <c-w> <esc>bgUwea
 " 所有 esc 都用 c-c 代替
 noremap <c-c> <esc>
 
-" 在 insert 模式下模拟 emacs
-inoremap <c-d> <del>
-inoremap <c-e> <esc>A
-inoremap <c-a> <esc>I
-inoremap <c-k> <esc>ld$a
-inoremap <c-f> <esc>la
-inoremap <c-b> <esc>i
-
-
 
 """""""""""""""""
 " airline
