@@ -31,15 +31,6 @@ set guioptions-=R
 set guioptions-=l
 set guioptions-=L
 
-" Colorscheme
-if has("gui_running")
-    colorscheme tnb
-else
-    colorscheme desert
-    let g:colors_name="desert"
-endif
-
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
