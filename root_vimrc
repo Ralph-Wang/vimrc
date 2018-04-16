@@ -26,11 +26,11 @@ Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'vim-scripts/nginx.vim'
 Plugin 'groenewege/vim-less'
-Plugin 'jelera/vim-javascript-syntax'
 Plugin 'suan/vim-instant-markdown'
 Plugin 'Ralph-Wang/robotframework-vim'
 Plugin 'posva/vim-vue'
 Plugin 'leafgarland/typescript-vim'
+Plugin 'isRuslan/vim-es6'
 
 " plugins
 Plugin 'Valloric/YouCompleteMe'
