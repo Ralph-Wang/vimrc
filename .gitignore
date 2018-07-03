@@ -7,3 +7,4 @@ sources_non_forked/tlib/doc/tags
 tags
 *.cache
 bundle/*
+.DS_Store
