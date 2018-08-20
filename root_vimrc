@@ -13,7 +13,7 @@ call vundle#begin('~/.vim_runtime/bundle/')
 Plugin 'gmarik/Vundle.vim'
 
 
-"" My Plugins
+"" Plugins
 " colors
 Plugin 'Ralph-Wang/tnb'
 
@@ -32,40 +32,45 @@ Plugin 'posva/vim-vue'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'isRuslan/vim-es6'
 
-" plugins
+" language extension
+Plugin 'SirVer/ultisnips'
+Plugin 'Ralph-Wang/vim-snippets'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'Yggdroot/indentLine'
+Plugin 'davidhalter/jedi-vim'
+Plugin 'mattn/emmet-vim'
+Plugin 'axiaoxin/vim-json-line-format'
+
+" Vim extension
+Plugin 'vim-scripts/YankRing.vim'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'godlygeek/tabular'
+Plugin 'scrooloose/nerdtree'
+Plugin 'yegappan/mru'
+Plugin 'vim-scripts/TaskList.vim'
+
+" uncategories
 Plugin 'mhinz/vim-startify'
 Plugin 'jazmit/vim-coloresque'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'SirVer/ultisnips'
-Plugin 'davidhalter/jedi-vim'
-Plugin 'axiaoxin/vim-json-line-format'
-Plugin 'Yggdroot/indentLine'
-Plugin 'vim-scripts/YankRing.vim'
-Plugin 'mattn/emmet-vim'
-Plugin 'yegappan/mru'
 Plugin 'corntrace/bufexplorer'
 Plugin 'kien/ctrlp.vim'
-Plugin 'scrooloose/nerdtree'
 Plugin 'amix/open_file_under_cursor.vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'vim-scripts/tlib'
 Plugin 'sophacles/vim-bundle-mako'
 Plugin 'michaeljsmith/vim-indent-object'
 Plugin 'MarcWeber/vim-addon-mw-utils' " required by garbas/vim-snipmate
-Plugin 'Ralph-Wang/vim-snippets'
 Plugin 'tpope/vim-surround'
 Plugin 'terryma/vim-expand-region'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-fugitive'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
 Plugin 'amix/vim-zenroom2'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-commentary'
-Plugin 'godlygeek/tabular'
-Plugin 'vim-scripts/TaskList.vim'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
