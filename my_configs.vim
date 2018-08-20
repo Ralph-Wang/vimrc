@@ -191,7 +191,7 @@ let g:airline#extensions#tabline#enabled=1
 let g:airline_theme='bubblegum'
  
 set laststatus=2 " Always display the statusline in all windows
-set guifont=Meslo\ LG\ M\ Regular\ for\ Powerline:h12
+set guifont=Ubuntu\ Mono\ derivative\ Powerline:h14
 " Hide the default mode text (e.g. -- INSERT -- below the statusline
 set noshowmode
 
