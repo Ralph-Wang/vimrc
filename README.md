@@ -6,6 +6,10 @@
 
 # Requirements
 
+### vim version
+
+8.1
+
 ### Tools
 * git
 * `vim` should make with '--enable-pythoninterp=yes'
