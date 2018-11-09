@@ -43,6 +43,12 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Set max memory for pattern matching for large file
+set maxmempattern=10000
+
+" Set timeout for redrawing for large file
+set redrawtime=10000
+
 " Sets how many lines of history VIM has to remember
 set history=700
 
