@@ -69,8 +69,8 @@ set tabstop=4
 set softtabstop=4
 
 "simple source looks well, large source not so good.
-autocmd FileType scss,css,eruby,ruby,html setlocal shiftwidth=2
-autocmd FileType scss,css,eruby,ruby,html setlocal tabstop=2
+autocmd FileType java,scss,css,eruby,ruby,html setlocal shiftwidth=2
+autocmd FileType java,scss,css,eruby,ruby,html setlocal tabstop=2
 
 " Linebreak on 80 characters
 set linebreak
