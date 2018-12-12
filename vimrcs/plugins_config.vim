@@ -5,6 +5,13 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""
+" => airblade/vim-gitgutter
+""""""""""""""""""""""""""""""
+nmap <Leader>ha <Plug>GitGutterStageHunk
+nmap <Leader>hr <Plug>GitGutterUndoHunk
+
+
+""""""""""""""""""""""""""""""
 " => mhinz/vim-startify
 """"""""""""""""""""""""""""""
 let g:startify_list_order = [
