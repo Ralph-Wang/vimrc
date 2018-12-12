@@ -7,7 +7,7 @@
 """"""""""""""""""""""""""""""
 " => airblade/vim-gitgutter
 """"""""""""""""""""""""""""""
-nmap <Leader>ha <Plug>GitGutterStageHunk
+nmap <Leader>hs <Plug>GitGutterStageHunk
 nmap <Leader>hr <Plug>GitGutterUndoHunk
 
 
