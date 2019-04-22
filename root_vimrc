@@ -18,6 +18,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'Ralph-Wang/tnb'
 
 " filetype
+Plugin 'PProvost/vim-ps1'
 Plugin 'tfnico/vim-gradle'
 Plugin 'fatih/vim-go'
 Plugin 'chrisbra/csv.vim'

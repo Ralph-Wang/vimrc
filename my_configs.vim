@@ -14,8 +14,8 @@
 " show the cursor line
 set cursorline
 
-" show the 100 column line
-set colorcolumn=101
+" show the 120 column line
+set colorcolumn=121
 
 " show the relative line number.
 set number
@@ -72,9 +72,9 @@ set softtabstop=4
 autocmd FileType java,scss,css,eruby,ruby,html setlocal shiftwidth=2
 autocmd FileType java,scss,css,eruby,ruby,html setlocal tabstop=2
 
-" Linebreak on 100 characters
+" Linebreak on 120 characters
 set linebreak
-set tw=100
+set tw=120
 
 
 
