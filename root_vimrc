@@ -66,7 +66,6 @@ Plugin 'MarcWeber/vim-addon-mw-utils' " required by garbas/vim-snipmate
 Plugin 'tpope/vim-surround'
 Plugin 'terryma/vim-expand-region'
 Plugin 'terryma/vim-multiple-cursors'
-Plugin 'tpope/vim-fugitive'
 Plugin 'amix/vim-zenroom2'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-repeat'
