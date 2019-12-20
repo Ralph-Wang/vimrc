@@ -32,6 +32,7 @@ Plugin 'Ralph-Wang/robotframework-vim'
 Plugin 'posva/vim-vue'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'isRuslan/vim-es6'
+Plugin 'pangloss/vim-javascript'
 
 " language extension
 Plugin 'SirVer/ultisnips'
