@@ -1,93 +1,75 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-" set the runtime path to include Vundle and initialize
+" set the runtime path to include vim-plug and initialize
 set rtp+=~/.vim_runtime
-set rtp+=~/.vim_runtime/bundle/Vundle.vim
-call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-" let vundle install plugins in .vim_runtime/bundle
-call vundle#begin('~/.vim_runtime/bundle/')
-
-" let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
+call plug#begin('~/.vim_runtime/bundle')
 
 
 "" Plugins
 " colors
-Plugin 'Ralph-Wang/tnb'
+Plug 'Ralph-Wang/tnb'
 
 " filetype
-Plugin 'PProvost/vim-ps1'
-Plugin 'tfnico/vim-gradle'
-Plugin 'fatih/vim-go'
-Plugin 'chrisbra/csv.vim'
-Plugin 'vim-scripts/Textile-for-VIM'
-Plugin 'ekalinin/Dockerfile.vim'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'vim-scripts/nginx.vim'
-Plugin 'groenewege/vim-less'
-Plugin 'suan/vim-instant-markdown'
-Plugin 'Ralph-Wang/robotframework-vim'
-Plugin 'posva/vim-vue'
-Plugin 'leafgarland/typescript-vim'
-Plugin 'isRuslan/vim-es6'
-Plugin 'pangloss/vim-javascript'
-Plugin 'mxw/vim-jsx'
+Plug 'PProvost/vim-ps1'
+Plug 'tfnico/vim-gradle'
+Plug 'fatih/vim-go'
+Plug 'chrisbra/csv.vim'
+Plug 'vim-scripts/Textile-for-VIM'
+Plug 'ekalinin/Dockerfile.vim'
+Plug 'kchmck/vim-coffee-script'
+Plug 'vim-scripts/nginx.vim'
+Plug 'groenewege/vim-less'
+Plug 'suan/vim-instant-markdown'
+Plug 'Ralph-Wang/robotframework-vim'
+Plug 'posva/vim-vue'
+Plug 'leafgarland/typescript-vim'
+Plug 'isRuslan/vim-es6'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 
 " language extension
-Plugin 'SirVer/ultisnips'
-Plugin 'Ralph-Wang/vim-snippets'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'Yggdroot/indentLine'
-Plugin 'davidhalter/jedi-vim'
-Plugin 'mattn/emmet-vim'
-Plugin 'axiaoxin/vim-json-line-format'
+Plug 'SirVer/ultisnips'
+Plug 'Ralph-Wang/vim-snippets'
+Plug 'Valloric/YouCompleteMe'
+Plug 'Yggdroot/indentLine'
+Plug 'davidhalter/jedi-vim'
+Plug 'mattn/emmet-vim'
+Plug 'axiaoxin/vim-json-line-format'
 
 " Vim extension
-Plugin 'vim-scripts/YankRing.vim'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'godlygeek/tabular'
-Plugin 'scrooloose/nerdtree'
-Plugin 'yegappan/mru'
-Plugin 'vim-scripts/TaskList.vim'
+Plug 'vim-scripts/YankRing.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'godlygeek/tabular'
+Plug 'scrooloose/nerdtree'
+Plug 'yegappan/mru'
+Plug 'vim-scripts/TaskList.vim'
 
 " uncategories
-Plugin 'mhinz/vim-startify'
-Plugin 'jazmit/vim-coloresque'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'corntrace/bufexplorer'
-Plugin 'kien/ctrlp.vim'
-Plugin 'amix/open_file_under_cursor.vim'
-Plugin 'majutsushi/tagbar'
-Plugin 'vim-scripts/tlib'
-Plugin 'sophacles/vim-bundle-mako'
-Plugin 'michaeljsmith/vim-indent-object'
-Plugin 'MarcWeber/vim-addon-mw-utils' " required by garbas/vim-snipmate
-Plugin 'tpope/vim-surround'
-Plugin 'terryma/vim-expand-region'
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'amix/vim-zenroom2'
-Plugin 'scrooloose/syntastic'
-Plugin 'tpope/vim-repeat'
-Plugin 'tpope/vim-commentary'
+Plug 'mhinz/vim-startify'
+Plug 'jazmit/vim-coloresque'
+Plug 'airblade/vim-gitgutter'
+Plug 'corntrace/bufexplorer'
+Plug 'kien/ctrlp.vim'
+Plug 'amix/open_file_under_cursor.vim'
+Plug 'majutsushi/tagbar'
+Plug 'vim-scripts/tlib'
+Plug 'sophacles/vim-bundle-mako'
+Plug 'michaeljsmith/vim-indent-object'
+Plug 'MarcWeber/vim-addon-mw-utils' " required by garbas/vim-snipmate
+Plug 'tpope/vim-surround'
+Plug 'terryma/vim-expand-region'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'amix/vim-zenroom2'
+Plug 'scrooloose/syntastic'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-commentary'
 
 
 " All of your Plugins must be added before the following line
-call vundle#end()            " required
+call plug#end()            " required
 filetype plugin indent on    " required
-" To ignore plugin indent changes, instead use:
-"filetype plugin on
-"
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-"
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
 
 
 
