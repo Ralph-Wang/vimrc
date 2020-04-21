@@ -2,7 +2,7 @@
 # My vimrc Setting
 
 * Base on [amix/vimrc](https://github.com/amix/vimrc)
-* Switch to vundle for plugin management
+* Switch to [vim-plug](https://github.com/junegunn/vim-plug) for plugin management
 
 # Requirements
 
@@ -32,5 +32,5 @@
 ```
 git clone --recursive https://github.com/Ralph-Wang/vimrc ~/.vim_runtime
 sh ~/.vim_runtime/install_awesome_vimrc.sh
-vim +PluginInstall +qall
+vim +PlugInstall +qall
 ```
