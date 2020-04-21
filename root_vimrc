@@ -33,7 +33,6 @@ Plug 'SirVer/ultisnips'
 Plug 'Ralph-Wang/vim-snippets'
 Plug 'Valloric/YouCompleteMe'
 Plug 'Yggdroot/indentLine'
-Plug 'davidhalter/jedi-vim'
 Plug 'mattn/emmet-vim'
 Plug 'axiaoxin/vim-json-line-format'
 
