@@ -45,6 +45,13 @@ let g:multi_cursor_quit_key='<C-c>'
 " => YouCompleteMe
 """"""""""""""""""""""""""""""
 let g:ycm_min_num_of_chars_for_completion = 2
+nmap <leader>d :YcmCompleter GoTo<cr>
+nmap <leader>g :YcmCompleter GoToReferences<cr>
+nmap <leader>k :YcmCompleter GetDoc<cr>
+" There is a blank after Rename to enter the new name like :YcmCompleter RefactorRename <new_name>
+nmap <leader>r :YcmCompleter RefactorRename 
+nmap <leader>t :YcmCompleter GetType<cr>
+
 
 """"""""""""""""""""""""""""""
 " => ultisnips
@@ -60,19 +67,6 @@ let g:UltiSnipsEditSplit="vertical"
 
 " google python style
 let g:ultisnips_python_style="jedi"
-
-""""""""""""""""""""""""""""""
-" => jedi
-""""""""""""""""""""""""""""""
-autocmd FileType python setlocal completeopt-=preview
-let g:jedi#popup_on_dot = 0
-let g:jedi#completions_command = "<C-o>"
-let g:jedi#goto_command = "<leader>d"
-let g:jedi#goto_assignments_command = "<leader>g"
-let g:jedi#goto_definitions_command = ""
-let g:jedi#documentation_command = "K"
-let g:jedi#usages_command = "<leader>n"
-let g:jedi#rename_command = "<leader>r"
 
 """"""""""""""""""""""""""""""
 " => indentLine
