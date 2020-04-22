@@ -40,8 +40,9 @@ set foldmethod=marker
 set cmdheight=1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Colors and Fonts
+" => Eidtor Theme
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" color
 set termguicolors
 try
     colorscheme onehalfdark
@@ -49,11 +50,20 @@ catch
     colorscheme desert
 endtry
 
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Status Line
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" status line
 set statusline=%!airline#statusline(1)
+
+" airline
+let g:airline_powerline_fonts=1
+let g:airline#extensions#tabline#enabled=1
+let g:airline_theme='onehalfdark'
+ 
+set laststatus=2 " Always display the statusline in all windows
+set guifont=Ubuntu\ Mono\ derivative\ Powerline:h14
+" Hide the default mode text (e.g. -- INSERT -- below the statusline
+set noshowmode
+
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
@@ -182,20 +192,6 @@ nnoremap <leader>nc :NERDTreeClose<cr>
 inoremap <c-w> <esc>bgUwea
 " 所有 esc 都用 c-c 代替
 noremap <c-c> <esc>
-
-
-"""""""""""""""""
-" airline
-"""""""""""""""""
-let g:airline_powerline_fonts=1
-let g:airline#extensions#tabline#enabled=1
-let g:airline_theme='onehalfdark'
- 
-set laststatus=2 " Always display the statusline in all windows
-set guifont=Ubuntu\ Mono\ derivative\ Powerline:h14
-" Hide the default mode text (e.g. -- INSERT -- below the statusline
-set noshowmode
-
 
 """""""""""""""""
 " From SPA
