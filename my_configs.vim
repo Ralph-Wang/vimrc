@@ -177,20 +177,7 @@ noremap <leader>s :sp<CR>
 noremap <leader>v :vsp<CR>
 
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => plugins extented
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:NERDTreeShowHidden = 1
-" noremap <leader>nc to close NERDTree
-nnoremap <leader>nc :NERDTreeClose<cr>
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => inorenmap
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" 将当前单词大写
-inoremap <c-w> <esc>bgUwea
-" 所有 esc 都用 c-c 代替
+" use <c-c> instead of <esc>
 noremap <c-c> <esc>
 
 """""""""""""""""

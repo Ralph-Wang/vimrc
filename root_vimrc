@@ -43,7 +43,7 @@ Plug 'godlygeek/tabular'
 Plug 'scrooloose/nerdtree'
 Plug 'yegappan/mru'
 Plug 'vim-scripts/TaskList.vim'
-
+Plug 'vim-scripts/LargeFile'
 " uncategories
 Plug 'mhinz/vim-startify'
 Plug 'jazmit/vim-coloresque'

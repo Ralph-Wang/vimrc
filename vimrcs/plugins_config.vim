@@ -162,9 +162,11 @@ set grepprg=/bin/grep\ -nH
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Nerd Tree
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-map <leader>nn :NERDTreeToggle<cr>
-map <leader>nb :NERDTreeFromBookmark 
-map <leader>nf :NERDTreeFind<cr>
+let g:NERDTreeShowHidden = 1
+noremap <leader>nn :NERDTreeToggle<cr>
+noremap <leader>nb :NERDTreeFromBookmark 
+noremap <leader>nf :NERDTreeFind 
+noremap <leader>nr :NERDTreeRefreshRoot<cr>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -199,3 +201,10 @@ nnoremap <silent> <leader>z :Goyo<cr>
 " => Syntastic (syntax checker)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:syntastic_python_checkers=['pyflakes']
+
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => LargeFile. disable features like syntax on LargeFile
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:LargeFile=1
