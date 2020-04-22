@@ -8,7 +8,7 @@ call plug#begin('~/.vim_runtime/bundle')
 
 "" Plugins
 " colors
-Plug 'Ralph-Wang/tnb'
+Plug 'sonph/onehalf', {'rtp': 'vim/'}
 
 " filetype
 Plug 'PProvost/vim-ps1'
@@ -39,7 +39,6 @@ Plug 'axiaoxin/vim-json-line-format'
 " Vim extension
 Plug 'vim-scripts/YankRing.vim'
 Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
 Plug 'godlygeek/tabular'
 Plug 'scrooloose/nerdtree'
 Plug 'yegappan/mru'

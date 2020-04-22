@@ -42,8 +42,9 @@ set cmdheight=1
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set termguicolors
 try
-    colorscheme tnb
+    colorscheme onehalfdark
 catch
     colorscheme desert
 endtry
@@ -188,7 +189,7 @@ noremap <c-c> <esc>
 """""""""""""""""
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled=1
-let g:airline_theme='bubblegum'
+let g:airline_theme='onehalfdark'
  
 set laststatus=2 " Always display the statusline in all windows
 set guifont=Ubuntu\ Mono\ derivative\ Powerline:h14
