@@ -210,10 +210,14 @@ let g:LargeFile=1
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => LargeFile. disable features like syntax on LargeFile
+" => markdown plugin
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:instant_markdown_slow = 1
 let g:instant_markdown_port=23055
 let g:instant_markdown_autostart = 0
 nnoremap <leader>mp :InstantMarkdownPreview<cr>
 nnoremap <leader>ms :InstantMarkdownStop<cr>
+
+augroup pandoc_syntax
+    au! BufNewFile,BufFilePre,BufRead *.md set filetype=markdown.pandoc
+augroup END
