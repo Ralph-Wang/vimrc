@@ -41,6 +41,7 @@ Plug 'gko/vim-coloresque' " css color on editing
 Plug 'tpope/vim-commentary'
 
 " Vim extension
+Plug 'tpope/vim-speeddating'
 Plug 'vim-scripts/YankRing.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'godlygeek/tabular'
@@ -60,6 +61,8 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'junegunn/goyo.vim' " required by zenroom2
 Plug 'amix/vim-zenroom2'
 Plug 'tpope/vim-repeat' " enable dot '.' to support plugin command
+Plug 'glts/vim-magnum'
+Plug 'glts/vim-radical'
 
 " CVS
 Plug 'airblade/vim-gitgutter'
