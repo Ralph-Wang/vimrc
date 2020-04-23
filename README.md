@@ -17,7 +17,7 @@
 
 ### Python packages
 ```
-[sudo] pip install isort autopep8 jedi flake8
+[sudo] pip install isort autopep8 flake8
 ```
 
 ### Node pacakges
@@ -33,4 +33,11 @@
 git clone --recursive https://github.com/Ralph-Wang/vimrc ~/.vim_runtime
 sh ~/.vim_runtime/install_awesome_vimrc.sh
 vim +PlugInstall +qall
+```
+
+### install ycm
+
+```
+cd ~/.vim_runtime/bundle/YouCompleteMe
+python install.py --all # or specify the language you need
 ```

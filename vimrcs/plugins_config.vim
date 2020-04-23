@@ -46,7 +46,7 @@ let g:multi_cursor_quit_key='<C-c>'
 """"""""""""""""""""""""""""""
 let g:ycm_min_num_of_chars_for_completion = 2
 nmap <leader>d :YcmCompleter GoTo<cr>
-nmap <leader>g :YcmCompleter GoToReferences<cr>
+nmap <leader>u :YcmCompleter GoToReferences<cr>
 nmap <leader>k :YcmCompleter GetDoc<cr>
 " There is a blank after Rename to enter the new name like :YcmCompleter RefactorRename <new_name>
 nmap <leader>r :YcmCompleter RefactorRename 
@@ -203,8 +203,17 @@ nnoremap <silent> <leader>z :Goyo<cr>
 let g:syntastic_python_checkers=['pyflakes']
 
 
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => LargeFile. disable features like syntax on LargeFile
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:LargeFile=1
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => LargeFile. disable features like syntax on LargeFile
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:instant_markdown_slow = 1
+let g:instant_markdown_port=23055
+let g:instant_markdown_autostart = 0
+nnoremap <leader>mp :InstantMarkdownPreview<cr>
+nnoremap <leader>ms :InstantMarkdownStop<cr>

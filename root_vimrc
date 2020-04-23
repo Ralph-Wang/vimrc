@@ -20,7 +20,7 @@ Plug 'ekalinin/Dockerfile.vim'
 Plug 'kchmck/vim-coffee-script'
 Plug 'vim-scripts/nginx.vim'
 Plug 'groenewege/vim-less'
-Plug 'suan/vim-instant-markdown'
+Plug 'suan/vim-instant-markdown', {'for': 'markdown'}
 Plug 'Ralph-Wang/robotframework-vim'
 Plug 'posva/vim-vue'
 Plug 'leafgarland/typescript-vim'
@@ -29,6 +29,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 
 " language extension
+Plug 'scrooloose/syntastic'
 Plug 'SirVer/ultisnips'
 Plug 'Ralph-Wang/vim-snippets'
 Plug 'Valloric/YouCompleteMe'
@@ -36,6 +37,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'mattn/emmet-vim'
 Plug 'axiaoxin/vim-json-line-format'
 Plug 'gko/vim-coloresque' " css color on editing
+Plug 'tpope/vim-commentary'
 
 " Vim extension
 Plug 'vim-scripts/YankRing.vim'
@@ -50,21 +52,19 @@ Plug 'jlanzarotta/bufexplorer'
 Plug 'kien/ctrlp.vim' " search in buffer/mru/files
 Plug 'amix/open_file_under_cursor.vim' " maped `gf`
 Plug 'tpope/vim-surround'
+Plug 'majutsushi/tagbar' " right side window
+Plug 'michaeljsmith/vim-indent-object'
+Plug 'terryma/vim-expand-region'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'junegunn/goyo.vim' " required by zenroom2
+Plug 'amix/vim-zenroom2'
+Plug 'tpope/vim-repeat' " enable dot '.' to support plugin command
 
 " CVS
 Plug 'airblade/vim-gitgutter'
 
-" uncategories
-Plug 'majutsushi/tagbar'
+" libs
 Plug 'vim-scripts/tlib'
-Plug 'sophacles/vim-bundle-mako'
-Plug 'michaeljsmith/vim-indent-object'
-Plug 'terryma/vim-expand-region'
-Plug 'terryma/vim-multiple-cursors'
-Plug 'amix/vim-zenroom2'
-Plug 'scrooloose/syntastic'
-Plug 'tpope/vim-repeat'
-Plug 'tpope/vim-commentary'
 
 
 " All of your Plugins must be added before the following line
