@@ -11,6 +11,7 @@ call plug#begin('~/.vim_runtime/bundle')
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
 
 " filetype
+Plug 'chemzqm/wxapp.vim'
 Plug 'PProvost/vim-ps1'
 Plug 'tfnico/vim-gradle'
 Plug 'fatih/vim-go'
