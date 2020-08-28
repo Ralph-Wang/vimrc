@@ -183,6 +183,10 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
                 \ 'Clean'     :'✔︎',
                 \ 'Unknown'   :'?',
                 \ }
+let g:NERDTreeGitStatusUseNerdFonts = 1
+let g:NERDTreeGitStatusShowIgnored = 0
+let g:NERDTreeGitStatusShowClean = 0
+let g:NERDTreeGitStatusConcealBrackets = 0
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

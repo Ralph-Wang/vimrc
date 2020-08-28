@@ -23,16 +23,6 @@ set number
 " incsearch all the way
 set incsearch
 
-try
-    set guifont=Monaco:h9:b:cANSI
-catch
-endtry
-
-try
-    set guifont="Source Code Pro":h9:b:cANSI
-catch
-endtry
-
 " set mark{{{ }}} for fold
 set foldmethod=marker
 
@@ -59,7 +49,7 @@ let g:airline#extensions#tabline#enabled=1
 let g:airline_theme='onehalfdark'
  
 set laststatus=2 " Always display the statusline in all windows
-set guifont=Ubuntu\ Mono\ derivative\ Powerline:h14
+set guifont=UbuntuMono\ Nerd\ Font\ Mono:h16
 " Hide the default mode text (e.g. -- INSERT -- below the statusline
 set noshowmode
 
