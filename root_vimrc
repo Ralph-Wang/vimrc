@@ -29,6 +29,7 @@ Plug 'leafgarland/typescript-vim'
 Plug 'isRuslan/vim-es6'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
+Plug 'dzeban/vim-log-syntax'
 
 " language extension
 Plug 'scrooloose/syntastic'
