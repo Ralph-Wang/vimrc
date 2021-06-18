@@ -36,6 +36,7 @@ set cmdheight=1
 set termguicolors
 try
     colorscheme onehalfdark
+    " colorscheme embark
 catch
     colorscheme desert
 endtry
@@ -70,8 +71,8 @@ set tabstop=4
 set softtabstop=4
 
 "simple source looks well, large source not so good.
-autocmd FileType java,scss,css,eruby,ruby,html setlocal shiftwidth=2
-autocmd FileType java,scss,css,eruby,ruby,html setlocal tabstop=2
+" autocmd FileType java,scss,css,eruby,ruby,html setlocal shiftwidth=2
+" autocmd FileType java,scss,css,eruby,ruby,html setlocal tabstop=2
 
 " Linebreak on 120 characters
 set linebreak
